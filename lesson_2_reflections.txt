@@ -4,5 +4,11 @@ When you initialize a repository, the .git file is created in the chosen directo
 2) How is the staging area different from the working directory and the repository? What value do you think it offers?
 The staging area is like a file that stores information about which files will be commited or not. The working directory is your local copy of the repository, where you can manipulate, modify, create the files in your computer (local). The repository is the place where all the files are stored, outside your computer (not local), that is copied to your computer when you make 'git clone'. The staging area is important because it enables you to commit the files you want, when you desire. I mean, you can modify the files and don't commit them all together with the ones that are OK to commit.
 
+3) How can you use the staging area to make sure you have one commit per logical change?
+You can see what will be commited in the staging area, so you can make 'git commit' to commit the files you desire or you can 'git reset' the files that you add mistakenly.
 
+4) What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+You create a new branch when you want to add a new functionality to you app. This is important because when you create a new branch, the project stays the same and the new functionality just is integrated to the app when it is completed and ready to be used (with 'git merge').
 
+5) How do the diagrams help you visualize the branch structure?
+With the diagrams is easier to see the commits tree and you can use a '<-' to indicate which is the father commit. Since the commits just see their father commits, this help to make a historical line and help to visualize lost commits and when/from which the new branch was created. 
