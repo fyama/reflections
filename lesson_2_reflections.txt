@@ -1,0 +1,8 @@
+1) What happens when you initialize a repository? Why do you need to do it?
+When you initialize a repository, the .git file is created in the chosen directory and the folder is transformed into the branch master. At this moment there are no commits. You do 'git init' to create a repository.
+
+2) How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area is like a file that stores information about which files will be commited or not. The working directory is your local copy of the repository, where you can manipulate, modify, create the files in your computer (local). The repository is the place where all the files are stored, outside your computer (not local), that is copied to your computer when you make 'git clone'. The staging area is important because it enables you to commit the files you want, when you desire. I mean, you can modify the files and don't commit them all together with the ones that are OK to commit.
+
+
+
