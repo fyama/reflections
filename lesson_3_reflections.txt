@@ -1,0 +1,2 @@
+1) When would you want to use a remote repository rather than keeping all your work local?
+It is important to use a remote repository to protect yourself from losing your local work in case something happens to your computer. When you need to work in colaboration whith other people or when you want to share knowledge, provide softwares or files with community. 
