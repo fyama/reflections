@@ -11,3 +11,6 @@ Branch - it is created inside a repository. A repo can have many branches.
 
 4) What is the benefit of having a copy of the last known state of remote stored locally?
 You can see what the colaborators or other people altered on the code
+
+5) How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+You can use alternatives like another VCS, for instance SVN or Mercurial, to collaborate. A remote repository can be set in a server and people can collaborate equally. The difference would be that all the commands would be done in terminal but 'pull request' and 'fork' that are unique features provided by GitHub.   
